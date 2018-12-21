@@ -6,9 +6,11 @@
 
 相册权限: Privacy - Photo Library Usage Description    是否允许此App访问你的媒体资料库？
 
+pod 找不到文件可以先清楚下本地缓存
+sudo rm -fr ~/Library/Caches/CocoaPods/
 
-
-pod 'BLImageCrop'
+pod 'BLImageCrop'  //oc 版本
+pod search BLImageCrop-Swift   //swift 版本
 
 照片剪裁
 效果图

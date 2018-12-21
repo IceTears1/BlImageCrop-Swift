@@ -10,7 +10,8 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "冰" => "642203775@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/IceTears1/BlImageCrop-Swift.git", :tag => s.version }
-s.source_files  = "BLImageCropView/BLImageCrop/*.{h,m}"
+s.source_files  = "BLImageCropView/BLImageCropView/BLImageCrop/*.{swift}"
 s.requires_arc = true
+s.swift_version = '4.0'
 
 end
